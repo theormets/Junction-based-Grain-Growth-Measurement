@@ -1,9 +1,12 @@
 Here's a breakdown of what each folder contains:
 
 ## images: 
- - This folder contains all your images used for training and validation. Each image should be in a supported format like JPEG, PNG, etc.
+ - This folder contains all your images used for training and validation. 
+  - Each image should be in a supported format like JPEG, PNG, etc.
 
 ## labels: 
  - This folder contains label files for each corresponding image. 
-   Each label file should have the same name as its corresponding image file but with a .txt extension. 
-   The label file format depends on the specific YOLO implementation you're using. For YOLOv5, each line in the label file should represent one object instance in the image, with the following format:
+ - Each label file should have the same name as its corresponding image file but with a .txt extension. 
+ - The label file format depends on the specific YOLO implementation you're using. 
+ - For YOLOv5, each line in the label file should represent one object instance in the image, with the following format:
+  <class> <x_center> <y_center> <width> <height>
