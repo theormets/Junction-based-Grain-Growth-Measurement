@@ -1,4 +1,4 @@
-# Tri-Junction Detection using YOLOv5
+#  Triple- and Quadruple-junctions Detection using YOLOv5
 
 This repository contains code for detecting triple- and quadruple-junctions in polycrystalline materials using the YOLOv5 object detection framework.
 
